@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Media Showcase</title>
+  </head>
+  <body id="top">
+    <header>
+      <h1>About Me - Media Showcase</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>A Powerful Message About My Journey</h2>
+        <p>
+          I am Oluwaseun Olaoluwa Ajayi, an aspiring tech professional at
+          AltSchool Africa’s School of Engineering. My journey is about
+          transforming my career through dedication, learning, and creativity.
+          Below, I showcase my story using various media elements to inspire and
+          connect.
+        </p>
+
+        <!-- Picture Element for Responsive Image -->
+        <h3>My Profile Picture</h3>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="assets/images/mobile-profile.jpg"
+          />
+          <source
+            media="(max-width: 900px)"
+            srcset="assets/images/tablet-profile.jpg"
+          />
+          <source
+            media="(min-width: 901px)"
+            srcset="assets/images/laptop-profile.jpg"
+          />
+          <img
+            src="assets/images/laptop-profile.jpg"
+            alt="Oluwaseun Olaoluwa Ajayi Profile Picture"
+          />
+        </picture>
+        <p>
+          This image represents me, adapting to different devices just as I
+          adapt to new challenges in my learning journey.
+        </p>
+
+        <!-- Image Element -->
+        <h3>My Learning Environment</h3>
+        <img
+          src="assets/images/study-desk.jpg"
+          alt="My study desk with laptop and notes"
+        />
+        <p>
+          A snapshot of my workspace where I study and code at AltSchool Africa.
+        </p>
+
+        <!-- Audio Element -->
+        <h3>My Motivation</h3>
+        <audio controls>
+          <source
+            src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+        <p>
+          This audio clip inspires me to stay focused and motivated while
+          learning at AltSchool.
+        </p>
+
+        <!-- Video Element -->
+        <h3>My Coding Journey</h3>
+        <video controls width="400">
+          <source
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video element.
+        </video>
+        <p>
+          A video showcasing my passion for coding, symbolizing my growth at
+          AltSchool.
+        </p>
+
+        <!-- Iframe Element -->
+        <h3>My AltSchool Community</h3>
+        <iframe
+          src="https://altschoolafrica.com"
+          width="400"
+          height="300"
+          title="AltSchool Africa Website"
+        ></iframe>
+        <p>
+          An embedded view of the AltSchool Africa website, where my learning
+          journey thrives.
+        </p>
+      </section>
+
+      <p><a href="#top">Back to Top</a></p>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Oluwaseun Olaoluwa Ajayi. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
